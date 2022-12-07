@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    
+}
+header{
+    background-color: #2E948A;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
+nav ul{
+    display: flex; 
+    margin: 50px;    
+}
+nav li{
+    padding: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin: 100px;
+}
+.main-left{
+    margin: 0px;
+    padding: 0px;
+}
+.main-left h1{
+    font-size: 45px;
+    color: #FF4081;
+    margin-top: 0;
+    margin-bottom: 0;
+}     
+.main-left p{
+    font-size: 21px;
+}    
+.main-left button{
+    font-size: 21px;
+    padding: 10px 20px;
+    color: #FF4081;
+    border-radius: 62px;
+    border: 2px solid #FF4081;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.main-left button:hover{
+    color:white;
+    background-color: #FF4081;
+}    
+#banner{
+    height: 300px; 
+}
+.secundary{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 50px;
+}
+.secundary img{
+    height: 200px;
+}
+.secundary h3{
+    color :#FF4081;   
+}
+.secundary button{
+    color: white;
+    background: #FF4081;    
+    border-radius: 62px;
+    border: 1px solid #FF4081;
+    width: 180px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.secundary button:hover{
+    background-color: white;
+    color:#FF4081;
+}
+.sobre-nos{
+    margin: 100px 50px;
+    font-family: 'nunito';
+    
+}
+.sobre-nos h1{
+    color:#009688;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.sobre-nos img{
+    width: 104px;
+    height: 104px;
+}
+.sobre-ambos{
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.left{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.right{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.infos{
+    margin: 10px;
+}
+.name{
+    font-weight: bold;
+}
+
+
+.mais-conteudo h1{
+    color: #009688;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 124px;
+    margin-top: 50px;
+}
+.conteudos{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 50px;
+}
+.conteudos img{
+    width: 300px;
+    height: 180px;
+    border: 1px solid grey;
+}
+.conteudos h3{
+    margin-bottom: 0;
+    color: #009688;
+}
+.conteudos p{
+    margin-top: 0;
+}
+.mais-conteudo button{
+    color:#FF4081;
+    border: 1px solid #FF4081;
+    border-radius: 60px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 10px 20px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.mais-conteudo button:hover{
+    color:white;
+    background-color: #FF4081;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #419488;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+footer img{
+    height: 100px;
+    
+}
+.links-footer{
+    display: flex;
+    flex-direction: column;
+}
+.links-footer a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.botoes-footer{
+    display: flex;
+    flex-direction: column;
+}
+.botoes-footer button{
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 10px 40px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.botoes-footer button:hover{
+    color:#419488;
+    background-color: white;
+    
+}

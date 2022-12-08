@@ -3,8 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu';
-    
+    font-family: 'Ubuntu';    
 }
 header{
     background-color: #2E948A;
@@ -220,6 +219,51 @@ footer img{
 }
 .botoes-footer button:hover{
     color:#419488;
-    background-color: white;
+    background-color: white;    
+}
+
+.curso-especifico{
+    display: flex;
+    justify-content: center;
+    margin: 70px
+}
+.titulo-cursos h1{
+    color: #FF4081;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-left: 180px;
+}
+.titulo-cursos p{
+    margin-top: 0;
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+.curso-especifico img{
+    width: 250px;
+    height: 253px;
+}
+.descricao-curso{
+    margin: 0 0 20px 50px;
     
 }
+.descricao-curso h2{
+    color:#FF4081;
+    font-weight: bold;
+    margin-top: 0;
+}
+.descricao-curso button{
+    background: #419488;
+    border-radius: 62px;
+    color: white;
+    width: 200px;
+    border: 1px solid #419488;
+    font-size: 17px;
+    padding: 12px 17px;
+    text-align: center;
+    cursor: pointer;
+}
+.descricao-curso button:hover{
+    background-color: white;
+    color: #419488;
+}        

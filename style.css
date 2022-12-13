@@ -266,4 +266,43 @@ footer img{
 .descricao-curso button:hover{
     background-color: white;
     color: #419488;
-}        
+}
+.investimento-iniciante{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.investimento-iniciante h1{
+    color: #FF4081; 
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-left: 175px;
+}.investimento-iniciante p{
+    margin-top: 15px;
+    margin-left: 180px;
+    margin-bottom: 80px;
+    font-size: 20px;  
+}
+.investimento-iniciante img{
+    width: 340px;
+    height: 341px;
+    margin-left: 80px;
+}
+.aula-especifica{
+    display: flex;
+    justify-content: center;
+    
+}
+.video-aula{
+    width: 400px;
+    height: auto;
+    margin: 30px 30px 30px 15px;
+}
+.descricao-aula{
+    margin-left: 80px;
+    margin: 30px 60px 30px 30px;
+    
+}
+.descricao-aula h2{
+    color:#FF4081;
+}

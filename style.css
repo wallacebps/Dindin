@@ -188,6 +188,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    
 }
 footer img{
     height: 100px;
@@ -281,7 +282,8 @@ footer img{
     margin-top: 15px;
     margin-left: 180px;
     margin-bottom: 80px;
-    font-size: 20px;  
+    font-size: 20px; 
+    padding-top: 5px; 
 }
 .investimento-iniciante img{
     width: 340px;
@@ -300,9 +302,74 @@ footer img{
 }
 .descricao-aula{
     margin-left: 80px;
-    margin: 30px 60px 30px 30px;
-    
+    margin: 30px 60px 30px 30px;   
 }
 .descricao-aula h2{
     color:#FF4081;
+}
+.contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+.contato img{
+    width: 400px;
+    height: 400px;    
+}
+.formulario h1{
+    font-size: 40px;
+    color: #FF4081;
+    margin: 10px;
+}
+.formulario input{
+    margin: 10px;
+    width: 400px;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 13px;
+}
+#btn-enviar{
+    background: #FF4081;
+    border-radius: 50px;
+    width: 120px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#msg-area{
+    margin: 10px;
+    width: 400px;   
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 16px;
+}
+.descricao-blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 70px;
+}
+.descricao-blog h1{
+    font-size: 40px;
+    color: #009688;
+}
+.imgs-blogs{
+    width: 420px;
+    height: 230px;
+}
+.blog{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 50px;
+    
+}
+.blog h3{
+    font-size: 25px;
+    color: #FF4081;   
+}
+.blog p{
+    font-size: 15px;
 }

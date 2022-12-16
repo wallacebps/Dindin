@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+
 body{
     margin: 0;
     padding: 0;
@@ -372,4 +373,103 @@ footer img{
 }
 .blog p{
     font-size: 15px;
+}
+@media(max-width: 960px){
+    .conteudos {
+        display: flex;
+        flex-wrap: wrap; 
+          
+    }
+    .mais-conteudo{
+        align-items: center;
+    }
+    .contato{
+        flex-wrap: wrap-reverse;
+    }
+    .titulo-cursos{
+        text-align: center;
+    }
+}
+@media(max-width: 890px){
+    .main{
+        flex-wrap:wrap-reverse
+    }
+    .secundary {
+        display: flex;
+        flex-wrap: wrap; 
+        
+    }
+}
+@media(max-width: 680px){
+    .mais-conteudo h1{
+        align-items:  center;
+    }
+    .sobre-ambos {
+        display: flex;
+        flex-wrap: wrap;
+        }
+    
+    .logo-footer{
+        display: none;
+    }     
+    header {
+        height: 180px;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .logo img{
+        width: 200px;
+        height: auto;
+    }
+    header nav ul{
+        flex-direction: column;
+        margin-left: 100px;
+        padding: 0;
+    }
+    header li{
+        font-size: 20px;
+        text-align: center;
+    }
+    .curso-especifico{
+        flex-direction: column;
+        align-items: center;
+    }
+    .curso-especifico img{
+        margin-bottom: 50px;
+    }    
+}
+@media(max-width: 535px){
+    header{
+        height: 300px;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    header li{
+        font-size: 30px;
+        border: 1px solid white;
+        margin: 2px;
+        border-radius: 15px;
+        width: 300px;
+        text-align: center;
+        padding: 3px;
+    }
+    header img{
+    margin-top: 15px;
+    }
+    footer{
+        height: 300px;
+        padding: 5px;
+        flex-direction: column;
+    }
+    footer a{
+        font-size: 30px;
+        border: 1px solid white;
+        margin: 2px;
+        border-radius: 15px;
+        width: 300px;
+        text-align: center;
+        padding: 3px;
+    }
+    
 }

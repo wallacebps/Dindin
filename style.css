@@ -403,6 +403,9 @@ footer img{
 @media(max-width: 680px){
     .mais-conteudo h1{
         align-items:  center;
+        margin: 0;
+        text-align: center;
+        
     }
     .sobre-ambos {
         display: flex;
@@ -444,18 +447,23 @@ footer img{
         height: 300px;
         padding: 5px;
         flex-wrap: wrap;
+        text-align: center;
+    }
+    .logo{
+        margin:0;
     }
     header li{
         font-size: 30px;
         border: 1px solid white;
         margin: 2px;
         border-radius: 15px;
-        width: 300px;
+        width: 250px;
         text-align: center;
         padding: 3px;
     }
     header img{
     margin-top: 15px;
+    
     }
     footer{
         height: 300px;
@@ -467,9 +475,17 @@ footer img{
         border: 1px solid white;
         margin: 2px;
         border-radius: 15px;
-        width: 300px;
+        width: 250px;
         text-align: center;
         padding: 3px;
+    }
+    #banner{
+        width: 200px;
+        height: 200px;
+    }
+    .conteudos{
+        margin:0;
+        padding: 0;
     }
     
 }

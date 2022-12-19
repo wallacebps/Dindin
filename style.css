@@ -474,9 +474,9 @@ footer img{
         
         font-size: 30px;
         border: 1px solid white;
-        margin: 4px;
+        margin: 4px 2px;
         border-radius: 15px;
-        width: 250px;
+        min-width: 250px;
         text-align: center;
         padding: 3px;
             
@@ -493,9 +493,9 @@ footer img{
     footer a{
         font-size: 30px;
         border: 1px solid white;
-        margin: 2px;
+        margin: 4px 2px;
         border-radius: 15px;
-        width: 250px;
+        min-width: 250px;
         text-align: center;
         padding: 3px;
     }

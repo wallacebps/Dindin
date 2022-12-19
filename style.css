@@ -454,6 +454,9 @@ footer img{
     }
     .curso-especifico img{
         margin-bottom: 50px;
+    }
+    .sobre-nos h1{
+        text-align: center;
     }    
 }
 @media(max-width: 535px){
@@ -485,7 +488,7 @@ footer img{
     margin-top: 15px;
     }
     footer{
-        height: 300px;
+        min-height: 300px;
         padding: 5px;
         flex-direction: column;
         min-width: 310px;
@@ -497,7 +500,7 @@ footer img{
         border-radius: 15px;
         min-width: 250px;
         text-align: center;
-        padding: 3px;
+        
     }
     #banner{
         width: 200px;

@@ -281,19 +281,19 @@ footer img{
 }
 .investimento-iniciante h1{
     color: #FF4081; 
-    font-size: 55px;
+    font-size: 45px;
     margin-bottom: 0;
-    margin-left: 175px;
+    margin-left: 195px;
 }.investimento-iniciante p{
     margin-top: 15px;
-    margin-left: 180px;
+    margin-left: 195px;
     margin-bottom: 80px;
-    font-size: 20px; 
+    font-size: 15px; 
     padding-top: 5px; 
 }
 .investimento-iniciante img{
-    width: 340px;
-    height: 341px;
+    width: 280px;
+    height: 280px;
     margin-left: 80px;
 }
 .aula-especifica{
@@ -379,10 +379,18 @@ footer img{
 .blog p{
     font-size: 15px;
 }
+@media (min-width: 1800px){
+    body{
+        width: 70%;
+        margin: auto;
+    }
+
+}
 @media(max-width: 960px){
     .conteudos {
         display: flex;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+        margin: ; 
           
     }
     .mais-conteudo{
@@ -404,6 +412,18 @@ footer img{
         margin-left: 0;
         margin-bottom: 0;
     }
+    .conteudo1, .conteudo2{
+        margin: 0 20px 20px 0;
+    }
+    .descricao-blog{
+        flex-direction: column-reverse;
+    }
+    .blog{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px
+    }    
+    
 @media(max-width: 890px){
     .main{
         flex-wrap:wrap-reverse
@@ -411,6 +431,24 @@ footer img{
     .secundary {
         display: flex;
         flex-wrap: wrap;    
+    }
+    .investimento-iniciante{
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .investimento-iniciante h1, .investimento-iniciante p, .investimento-iniciante img{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .aula-especifica{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aula-especifica video{
+        margin-bottom: 0;
+    }
+    .descricao-aula{
+        margin-top: 0;
     }
 }
 @media(max-width: 680px){
@@ -457,6 +495,13 @@ footer img{
     }
     .sobre-nos h1{
         text-align: center;
+    }
+    //.contato form input, .contato form textarea{
+        width: 70%;
+    }
+    .contato img{
+        width: 350px;
+        height: 350px;
     }    
 }
 @media(max-width: 535px){
@@ -465,7 +510,7 @@ footer img{
         padding: 5px;
         flex-wrap: wrap;
         text-align: center;
-        min-width: 310px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -491,7 +536,7 @@ footer img{
         min-height: 300px;
         padding: 5px;
         flex-direction: column;
-        min-width: 310px;
+        width: 100%;
     }
     footer a{
         font-size: 30px;
@@ -510,4 +555,5 @@ footer img{
         margin:5px;
         padding: 0;
     }
+
     

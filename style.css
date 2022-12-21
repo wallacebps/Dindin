@@ -78,7 +78,7 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 100px 50px;
+    margin: 100px 50px 50px 50px;
 }
 .secundary img{
     height: 200px;
@@ -102,7 +102,7 @@ header{
     color:#FF4081;
 }
 .sobre-nos{
-    margin: 100px 50px;
+    margin: 50px 50px;
     font-family: 'nunito';
     
 }
@@ -111,7 +111,7 @@ header{
     font-size: 30px;
     margin-bottom: 50px;
     margin-left: 80px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .sobre-nos img{
     width: 104px;
@@ -146,9 +146,9 @@ header{
     color: #009688;
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-left: 124px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .conteudos{
     display: flex;
@@ -194,6 +194,8 @@ footer{
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    width: 100%;
+    
     
 }
 footer img{
@@ -413,7 +415,7 @@ footer img{
         margin-bottom: 0;
     }
     .conteudo1, .conteudo2{
-        margin: 0 20px 20px 0;
+        margin: 0 0px 20px 0;
     }
     .descricao-blog{
         flex-direction: column-reverse;
@@ -454,7 +456,8 @@ footer img{
 @media(max-width: 680px){
     .mais-conteudo h1{
         align-items:  center;
-        margin: 10px;
+        margin: 10px 20px;
+        padding: 10px 20px;
         text-align: center;
         
     }
@@ -495,9 +498,6 @@ footer img{
     }
     .sobre-nos h1{
         text-align: center;
-    }
-    //.contato form input, .contato form textarea{
-        width: 70%;
     }
     .contato img{
         width: 350px;
@@ -554,6 +554,12 @@ footer img{
     .conteudos{
         margin:5px;
         padding: 0;
+    }
+    @media (max-width:430px){
+       .mais-conteudo h1{
+        padding: 10px 20px;
+        margin: 10px 20px;
+       }
     }
 
     
